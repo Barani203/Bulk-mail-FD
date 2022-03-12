@@ -1,0 +1,116 @@
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background: linear-gradient(141deg,#ddd6f3,#faaca8);
+  
+  
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 9px 9px 20px -4px #A9A9A9 ;
+  position: relative;
+}
+
+.form__wrapper{
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(250, 248, 248);
+  
+  flex-direction: column;
+  border-radius: 9px;
+  width: 680px;
+
+}
+
+.form__title{
+  display: flex;
+  color: rgb(12, 12, 12);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.form__title > h4{
+  font-size: 2rem;
+  font-weight: 400;
+  border-bottom: 2px solid #f74b42;
+}
+
+.form__container{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.form__containerItems{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form__containerItem{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form__containerItemName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__containerItemName > label{
+  font-size: 1.5rem;
+  color: rgb(8, 8, 8);
+  font-weight: 500;
+}
+
+.form__containerItemName > .MuiSvgIcon-root{
+  color: #3347fd;
+  font-size: xx-large;
+}
+
+.form__containerItemField{
+  display: flex;
+  width: 100%;
+}
+
+.form__containerItemField > input{
+  /* outline-style: outset; */
+  border-color: rgb(148, 151, 156);
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: rgb(160, 163, 167);
+  width: 100%;
+}
+
+.form__containerItemField > input:focus{
+  /* border: 1px solid rgb(105, 116, 151); */
+  border-radius: 7px;
+  display:flex;
+ border-color: rgb(144, 147, 151);
+}
+
+.container__composeMail{
+  display: flex;
+  color: rgb(15, 15, 15);
+  
+ 
+}
+.send{
+  padding-top: 50px;
+}
