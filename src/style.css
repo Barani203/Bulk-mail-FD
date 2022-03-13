@@ -8,7 +8,8 @@
     border-radius: 6px;
     box-shadow: 9px 9px 9px -4px #A9A9A9;
     overflow: scroll;
-    height: 600px;
+    height: 100px;
+    width: 400px;
   }
   
   .tag-input input {
