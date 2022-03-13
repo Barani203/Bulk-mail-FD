@@ -54,7 +54,7 @@ function App() {
           axios({
             url: "https://bulktool2.herokuapp.com/",
             method: "post",
-            data: payload,
+            data: payload
           })
             .then((res) => {
               alert("Email Sent Successfully");
