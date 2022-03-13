@@ -48,11 +48,11 @@ function App() {
             email: tags,
             subject: subject,
             message: message,
-            company: company,
+            company: company
           };
 
           axios({
-            url: "https://bulktool2.herokuapp.com/",
+            url: "http://localhost:3030/mail",
             method: "post",
             data: payload
           })
