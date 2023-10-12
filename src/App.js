@@ -52,7 +52,7 @@ function App() {
           };
 
           axios({
-            url: "https://bulk-mail-backend-uooa.onrender.com",
+            url: "https://bulktool2.herokuapp.com/mail",
             method: "post",
             data: payload
           })
